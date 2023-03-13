@@ -6,23 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="icon" href="imagenes/1920x1080.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0
+.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
-    <div>
-        <h1 class="titulo">Bienvenido</h1>
-    </div>
-    <div class="inputs">
-        <input type="search" name="busqueda" placeholder="Ingrese su usuario" alt="">
-    </div>
-    <div class="inputs">
-        <input type="search" name="busqueda" placeholder="Ingrese su contraseña" alt="">
-    </div>
-    <div class="buttons">
-        <button onclick="cambiarTitulo()">Ingresar</button>
-    </div>
-    <script src="login.js"></script>
+    <div class="container">
+        <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+        <div class="row">
+            <div class="col-6 col-md-8 col-sm-1 offset-md-3">
+                <div>
+                    <h1 class="titulo">Bienvenido</h1>
+                </div>
+                <div class="inputs">
+                    <input type="search" name="busqueda" placeholder="Ingrese su usuario" alt="">
+                </div>
+                <div class="inputs">
+                    <input type="search" name="busqueda" placeholder="Ingrese su contraseña" alt="">
+                </div>
+                <div class="buttons">
+                    <button onclick="cambiarTitulo()">Ingresar</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="login.js"></script>
 
 </body>
 
