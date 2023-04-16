@@ -14,15 +14,16 @@
 </head>
 
 <body>
-    <div class="mb-5 "></div>
+    
     <div class="container">
-        <div class="row align-items-center">
+        <div class="row align-items-center h-100">
             <div class="d-grid gap-2 col-md-0 col-lg-4 ">
             </div>
             <div class="col-12 col-md-4">
-                <div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                <div class="shadow-lg p-3 bg-body-tertiary rounded">
                     <div class="card-body">
-                        <p class="h1 text-center mb-5">Bienvenido</p>
+                        <h1 class="h1 text-center">Bienvenido</h1>
+                        <p class="Lead text-center">Inicia sesión</p>
                         <div class="input-group mb-4">
                             <span class="input-group-text">
                                 <img src="imagenes/icons8-usuario-33.png" class="img-thumbnail" alt="...">
@@ -30,7 +31,9 @@
                             <div class="form-floating">
                                 <input type="email" class="form-control" id="floatingInputInvalid"
                                     placeholder="name@example.com" value="test@example.com">
-                                <label for="floatingInputGroup1">Ingrese su usuario</label>
+                                <label for="floatingInputGroup1"style="text-overflow: ellipsis;
+                                width: 100%;
+                                ">Ingrese su usuario</label>
                             </div>
                         </div>
                         <div class="input-group mb-4">
@@ -40,7 +43,9 @@
                             <div class="form-floating">
                                 <input type="password" class="form-control" id="floatingInputGroup1"
                                     placeholder="Username">
-                                <label for="floatingInputGroup1">Ingrese su contraseña</label>
+                                <label for="floatingInputGroup1" style="text-overflow: ellipsis;
+                                width: 100%;
+                                ">Ingrese su contraseña</label>
                             </div>
                             <div class="form-text" id="basic-addon4">
                                 Su contraseña debe tener entre 8 y 20 caracteres, contener letras y números, y no debe
