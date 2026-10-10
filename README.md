@@ -1,24 +1,45 @@
 # Login
 
-Pantalla de inicio de sesión construida con HTML, CSS y JavaScript: maquetación responsive y validación de formulario en el cliente.
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+[![Demo](https://img.shields.io/badge/demo-en%20línea-2ea44f?style=flat)](https://andrestorresaioros.github.io/Login/)
 
-## Contenido
+Maqueta de una pantalla de inicio de sesión construida con HTML, CSS y JavaScript, sin frameworks.
 
-- index.html — estructura de la pantalla de login
-- styles.css — estilos y diseño responsive
-- login.js — validación de campos y manejo del formulario
-- imagenes/ — recursos gráficos
+**Demo:** https://andrestorresaioros.github.io/Login/
 
-## Funcionalidad
+## Características
 
-- Validación de campos obligatorios y formato de correo
-- Mensajes de error visibles junto a cada campo
-- Diseño adaptable a pantallas de escritorio y móvil
+- Formulario con campos de usuario y contraseña acompañados de iconografía.
+- Texto de ayuda con la política de contraseñas (entre 8 y 20 caracteres, letras y números, sin espacios ni caracteres especiales).
+- Interacción básica con JavaScript: al enviar, el título cambia para confirmar que la información se guardó.
+- Fondo a pantalla completa y estilos propios en `styles.css`.
 
-## Ejecución
+## Estructura
 
-Abrir index.html en el navegador, o servir la carpeta:
+```
+.
+├── index.html     # Estructura de la pantalla
+├── styles.css     # Estilos
+├── login.js       # Interacción del formulario
+└── imagenes/      # Fondo e iconos
+```
 
-    python -m http.server 8000
+## Ejecución local
 
-El proyecto está desplegado con GitHub Pages.
+No requiere instalación. Abre `index.html` en el navegador o sirve la carpeta:
+
+```bash
+python -m http.server 8000
+```
+
+y visita `http://localhost:8000`.
+
+## Autor
+
+**César Andrés Torres Bernal** · [GitHub](https://github.com/andrestorresaioros) · [LinkedIn](https://www.linkedin.com/in/andr%C3%A9s-torres10)
+
+## Licencia
+
+Distribuido bajo la licencia MIT. Consulta [LICENSE](LICENSE).
